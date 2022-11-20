@@ -1,0 +1,58 @@
+.contact-background {
+    background-color: #d3d3d3;
+    display: flex;
+    height: 100%;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 50%;
+}
+
+.phone-number {
+    color: #be0002
+}
+
+.bottom-text {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 50%;
+}
+
+.contact-form {
+    background-color: #be0002;
+    height: 500px;
+    width: 75%;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

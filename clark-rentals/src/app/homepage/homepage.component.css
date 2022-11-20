@@ -1,0 +1,154 @@
+.homepage-background {
+    width: 100vw;
+    height: 100%;
+    background-color: #d3d3d3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-container {
+    width: 40%;
+    height: 300px;
+    background-color: none;
+    margin-left: 200px;
+    margin-top: 150px;
+    margin-right: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-img-container {
+    width: 40%;
+    margin-top: 105px;
+}
+
+.main-img-container img {
+    width: 750px;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.text {
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+.btn-container {
+    padding: 40px 0px;
+}
+
+.homepage-button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    background-color: #ffe502;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.homepage-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.image-background {
+    margin-top: 50px;
+    width: 40%;
+    height: 900px;
+    background-color: #be0002;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.homepage-image {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    width: 750px
+}
+
+.fleet-images-container {
+    background-color: #be0002;
+    border-radius: 20px;
+    width: 75%;
+    height: 600px;
+}
+
+.vehicle-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-card {
+    border-radius: 20px;
+    background-color: #d3d3d3;
+    width: 400px;
+    height: 400px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle-name {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.fleet-images-container img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.bottom-container {
+    margin-top: 50px;
+    padding-bottom: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-button-container {
+    margin: 50px;
+    display: flex;   
+    justify-content: center;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle-section-header {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+
+
+
