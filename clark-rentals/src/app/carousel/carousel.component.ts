@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { carouselImage } from '../homepage/homepage.component';
+import { VehicleImage } from '../services/images.service';
 
 @Component({
   selector: 'app-carousel',
@@ -8,7 +8,7 @@ import { carouselImage } from '../homepage/homepage.component';
 })
 export class CarouselComponent implements OnInit {
 
-  @Input() carouselImages: carouselImage[] = []
+  @Input() carouselImages: VehicleImage[] = []
   @Input() indicators = true;
   @Input() controls = true;
 

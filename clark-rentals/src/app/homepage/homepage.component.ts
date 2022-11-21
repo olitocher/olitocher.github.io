@@ -1,41 +1,21 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ImagesService, VehicleImage } from '../services/images.service';
 
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+  styleUrls: ['./homepage.component.css'],
+  providers: [ImagesService]
 })
 export class HomepageComponent implements OnInit {
 
-  images: carouselImage[] = [
-    {
-      imageSrc: '../../assets/images/van_image-removebg-preview.png',
-      imageAlt: 'van',
-      imageName: 'Transit Van',
-    },
-    {
-      imageSrc: '../../assets/images/van_image-removebg-preview.png',
-      imageAlt: 'car',
-      imageName: 'Small White Car'
-    },
-    {
-      imageSrc: '../../assets/images/van_image-removebg-preview.png',
-      imageAlt: 'truck',
-      imageName: 'Luton Van'
-    }
-  ]
+  public images: VehicleImage[];
 
-  constructor() { }
+  constructor(private imagesService: ImagesService) { }
 
   ngOnInit(): void {
-    
+    this.images = this.imagesService.getVehicleImages()
   }
 
 
-}
-
-export type carouselImage = {
-  imageSrc: string;
-  imageAlt: string;
-  imageName: string;
 }

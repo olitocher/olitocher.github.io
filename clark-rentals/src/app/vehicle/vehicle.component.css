@@ -1,0 +1,43 @@
+.vehicle-page-bg {
+    width: 100%;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.images-container {
+    padding-top: 150px;
+}
+
+.prices-table-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+  }
+  
+  table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    background-color: transparent; /* Change the background-color of table here */
+    text-align: left; /* Change the text-alignment of table here */
+  }
+  
+  th {
+    font-weight: bold;
+    border: 1px solid #cccccc; /* Change the border-color of heading here */
+    padding: 8px;
+  }
+  
+  td {
+    border: 1px solid #cccccc; /* Change the border-color of cells here */
+    padding: 8px;
+  }
